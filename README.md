@@ -7,7 +7,7 @@ This AngularJS library provides a wrapper to add RavePay Payment to your Angular
 
 ### Install
 ```bash
-npm install git++https://git@github.com/Austyns/ng-rave.git --save
+npm install git+https://git@github.com/Austyns/ng-rave.git --save
 ``
 
 
