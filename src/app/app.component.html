@@ -1,0 +1,10 @@
+<rave-pay-button
+    [text]="'Pay me,my money'"
+    [className]="'paymentbtn'"
+    (callback)="confirmPayment($event)"
+    (close)="cancelledPayment()"
+    [key]="'FLWPUBK-xxxxxxxxxxxxxxxxxxxxxxxx-X'"
+    [reference]="generateReference()"
+    [amount]="10000"
+    [email]="'FooBar@rave.com'"
+></rave-pay-button >

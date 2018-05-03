@@ -1,0 +1,9 @@
+<button
+    class="paystack-pay-button"
+    [ngStyle]="style" 
+    [payment_method]="payment_method"
+    [attr.id]="id" 
+    [ngClass]="className"
+    (click)="madePayment()">
+        {{text || 'Pay'}}
+</button>
