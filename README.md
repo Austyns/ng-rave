@@ -50,7 +50,7 @@ Use in required component
         [className]="'pay_button'"
         (callback)="paymentDone($event)"
         (close)="paymentCancel()"
-        [key]="'FLWPUBK-837e6de2cde8032b038a77dfaddfc491-X'"
+        [key]="'FLWPUBK-whatever-your-key-is-X'"
         [reference]="topup.trans_id"
         [amount]="topup.topup_amount"
         [email]="agentInfo.email"
